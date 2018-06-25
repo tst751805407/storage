@@ -1,0 +1,185 @@
+[ 2018-04-17T23:36:21+08:00 ] ::1 /Storage/index.php/home/public/clear?_=1523979381279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] rmdir(./App/Runtime//Cache): Directory not empty D:\phpStudy\WWW\Storage\App\Common\Common\function.php 第 251 行.
+NOTIC: [2] rmdir(./App/Runtime//Cache/Home): Directory not empty D:\phpStudy\WWW\Storage\App\Common\Common\function.php 第 251 行.
+NOTIC: [2] rmdir(./App/Runtime//Logs): Directory not empty D:\phpStudy\WWW\Storage\App\Common\Common\function.php 第 251 行.
+NOTIC: [2] rmdir(./App/Runtime//Logs/Home): Directory not empty D:\phpStudy\WWW\Storage\App\Common\Common\function.php 第 251 行.
+NOTIC: [2] rmdir(./App/Runtime//Temp): Directory not empty D:\phpStudy\WWW\Storage\App\Common\Common\function.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-04-17T23:37:11+08:00 ] ::1 /Storage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `xy_config` [ RunTime:0.0063s ]
+SQL: SELECT `type`,`name`,`value` FROM `xy_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `xy_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 231 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=135 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=158 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=158 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=136 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=136 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=142 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=142 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 252 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=148 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 231 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=160 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=161 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=161 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=162 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=162 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=163 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=164 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=164 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 231 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=7 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=14 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 247 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=179 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=179 ) ORDER BY sort  [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2018-04-17T23:37:11+08:00 ] ::1 /Storage/index.php?s=/Home/index/main.html&_=1523979431728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `xy_quxiang` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xy_quxiang` ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT `depname` FROM `xy_user` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `depname` FROM `xy_user` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `depname` FROM `xy_user` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `depname` FROM `xy_user` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `depname` FROM `xy_user` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `xy_renwu` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\8d1be3c46ef179b9e01c2c8d3de21c37.php 第 79 行.
+SQL: SELECT * FROM `xy_renwu` WHERE `juid` LIKE '%1%' ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-04-17T23:37:13+08:00 ] ::1 /Storage/index.php/home/user/index?_=1523979433130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Storage\App\Common\Controller\BaseController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Storage\App\Common\Controller\BaseController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Storage\App\Common\Controller\BaseController.class.php 第 78 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` WHERE (  `id` <> '0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_user` WHERE (  `id` <> '0' ) ORDER BY `id` desc LIMIT 0,50   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xy_user` [ RunTime:0.0043s ]
+SQL: SELECT DISTINCT  `depname` FROM `xy_user`  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `posname` FROM `xy_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: depname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 12 行.
+NOTIC: [8] Undefined index: posname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 17 行.
+NOTIC: [8] Undefined index: posname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 17 行.
+NOTIC: [8] Undefined index: posname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 17 行.
+NOTIC: [8] Undefined index: posname D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 17 行.
+NOTIC: [8] Use of undefined constant depname - assumed 'depname' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 62 行.
+SQL: SHOW COLUMNS FROM `xy_auth_group_access` [ RunTime:0.0042s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 22 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant depname - assumed 'depname' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 62 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 21 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant depname - assumed 'depname' D:\phpStudy\WWW\Storage\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 62 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
